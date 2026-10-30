@@ -64,5 +64,119 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Horse Truth is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://horsetruth.com.au
+Horse Truth provides plain-English intelligence on Australian thoroughbred racehorses, offering a public sealed record and machine-readable data. Users can access horse performance, evidence of form, and receive daily feeds or full access plans. The service includes x402 micro-payments for machine access and A$19 monthly subscriptions for people, with detailed reports available for purchase.
+
+**Areas:** Racehorse Intelligence · Horse Reports · Developers · Trainers
+
+## Horse Truth on APIs.io
+
+Everything profiled for Horse Truth is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/horsetruth/](https://apis.io/providers/horsetruth/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [Horse Truth Horses API](https://apis.io/apis/horsetruth/horsetruth-horses-api/) — The Horses API from Horse Truth — 1 operation(s) for horses.
+- [Horse Truth Identity API](https://apis.io/apis/horsetruth/horsetruth-identity-api/) — The Identity API from Horse Truth — 1 operation(s) for identity.
+- [Horse Truth Machine API](https://apis.io/apis/horsetruth/horsetruth-machine-api/) — The Machine API from Horse Truth — 1 operation(s) for machine.
+- [Horse Truth MCP API](https://apis.io/apis/horsetruth/horsetruth-mcp-api/) — The Mcp API from Horse Truth — 1 operation(s) for mcp.
+- [Horse Truth Sandbox API](https://apis.io/apis/horsetruth/horsetruth-sandbox-api/) — The Sandbox API from Horse Truth — 1 operation(s) for sandbox.
+- [Horse Truth X402 API](https://apis.io/apis/horsetruth/horsetruth-x402-api/) — The X402 API from Horse Truth — 1 operation(s) for x402.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (1)
+
+The data models the API reads and writes.
+
+- [PostApiV1MachineMachineidRequest](https://apis.io/schemas/horsetruth/horsetruth-post-api-v1-machine-machineid-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Horsetruth Context](https://apis.io/jsonld/horsetruth/horsetruth-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Horse Truth API Rules](https://apis.io/rules/horsetruth/horsetruth-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Horsetruth Authentication](https://apis.io/security/horsetruth/horsetruth-authentication/)
+- [Horsetruth Domain Security](https://apis.io/security/horsetruth/horsetruth-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Horsetruth Plans Pricing](https://apis.io/plans/horsetruth/horsetruth-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://horsetruth.com.au)
+- [Documentation](https://horsetruth.com.au/developers)
+- [Getting started](https://horsetruth.com.au/developers/machine)
+- [Terms of service](https://horsetruth.com.au/terms)
+- [Privacy policy](https://horsetruth.com.au/privacy)
+
+## API Evangelist rating
+
+**Kin Score 31.2** — thin · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 68.3 |
+| Contract quality | 19.0 |
+| Contract governance | 19.7 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 40.5 |
+| Access clarity | 42.1 |
+
+**Agent readiness 24.7** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | — |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/horsetruth/](https://apis.io/providers/horsetruth/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Horse Truth: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/horsetruth/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
